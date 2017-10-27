@@ -22,7 +22,7 @@ pod 'YWAppDelegate'
 
 ## Author
 
-yezi-kk, yewei@cheddd.com
+yezi-kk, 276208561@qq.com
 
 ## License
 
