@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YWAppDelegate_Example' do
+  pod 'YWAppDelegate', :path => '../'
+
+  target 'YWAppDelegate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
