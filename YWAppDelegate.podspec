@@ -7,36 +7,20 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'YWAppDelegate'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YWAppDelegate.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
+s.name             = 'YWAppDelegate'
+s.version          = '0.1.0'
+s.summary          = 'Base AppDelegate class'
+s.description      = <<-DESC
 TODO: Add long description of the pod here.
-                       DESC
+DESC
 
-  s.homepage         = 'https://github.com/yezi-kk/YWAppDelegate'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yezi-kk' => 'yewei@cheddd.com' }
-  s.source           = { :git => 'https://github.com/yezi-kk/YWAppDelegate.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/yezi-kk/YWAppDelegate'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Ye Wei' => '276208561@qq.com' }
+s.source           = { :git => 'https://github.com/yezi-kk/YWAppDelegate.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YWAppDelegate/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YWAppDelegate' => ['YWAppDelegate/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.source_files = 'YWAppDelegate/Classes/**/*'
 end
+

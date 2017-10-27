@@ -1,0 +1,6 @@
+framework module Pods_YWAppDelegate_Tests {
+  umbrella header "Pods-YWAppDelegate_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

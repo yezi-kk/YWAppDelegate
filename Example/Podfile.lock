@@ -1,0 +1,16 @@
+PODS:
+  - YWAppDelegate (0.1.0)
+
+DEPENDENCIES:
+  - YWAppDelegate (from `../`)
+
+EXTERNAL SOURCES:
+  YWAppDelegate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YWAppDelegate: 679326d4d952cea1fd68173f7b7ef10e793c5dc4
+
+PODFILE CHECKSUM: d3ba1134f501924941b8e03aefbc03b113039a7a
+
+COCOAPODS: 1.3.1
